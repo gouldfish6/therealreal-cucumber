@@ -22,6 +22,8 @@ I assume the data in the database is always known and can be controlled. Product
 
 I assume the API test suite is robust. I assume search, filter, and sort are covered by API tests so not all permutations need to be tested with front end tests.
 
+I assume it is ok to only run tests on Firefox. I would add compatibility with other browsers in a subsequent iteration.
+
 ## Other Notes
 
 I planned on using the selenium-cucumber-ruby library but the library made the steps harder to read so I only use part of it.
