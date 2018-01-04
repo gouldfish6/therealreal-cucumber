@@ -6,11 +6,15 @@
 
 1. Install selenium-cucumber
 
-        gem install selenium-cucumber
+        $ gem install selenium-cucumber
 
-2. Run the tests
+2. Install geckodriver
 
-        cucumber
+        $ brew install geckodriver
+
+3. Run the tests
+
+        $ cucumber
 
 ## Assumptions
 
